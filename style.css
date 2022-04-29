@@ -325,21 +325,36 @@ text-align: center;
 }
 
 .footer {
-   background-color:#3d96fc ; 
+   
    color :#eee ;
    padding : 2em;
    display: flex;
    justify-content: space-between;
-   border-radius: 10px;
+    align-items: center;
+   position: relative;
+    bottom: 0;
+    right: 0%; 
+    left: 0%;
+    width: 100%;
+   
+    background: rgb(255, 254, 254);
+    padding: 15px 23px;
+    color: rgb(0, 190, 248);
+    text-align: center;
+  
+   
 }
 
 .footer-title{
-    font-size: 1.4em;
+    font-size: 0.8em;
     font-weight:600 ;
+    
+    
 }
 
 .footer-title span {
-    color :#0358f5;
+    color :#2a00fa;
+    font-size : 0.8em;
 }
 
 
